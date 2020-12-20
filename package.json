@@ -1,0 +1,52 @@
+{
+	"name": "sarokh",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "http://app.sarokh.sa/",
+	"dependencies": {
+		"@hookform/resolvers": "^0.1.1",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.5.0",
+		"@testing-library/user-event": "^7.2.1",
+		"axios": "^0.19.2",
+		"core-js": "^3.6.5",
+		"joi": "^17.2.1",
+		"lodash": "^4.17.20",
+		"moment": "^2.27.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-google-autocomplete": "^1.2.6",
+		"react-google-maps": "^9.4.5",
+		"react-hook-form": "^6.0.8",
+		"react-icons": "^4.1.0",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "^3.4.3",
+		"react-spring": "^8.0.27",
+		"react-table": "^7.5.0",
+		"react-to-print": "^2.9.0",
+		"react-toastify": "^6.0.8",
+		"recoil": "0.0.10",
+		"underscore": "^1.10.2"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

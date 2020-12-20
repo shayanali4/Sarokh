@@ -1,0 +1,324 @@
+.right{
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+
+}
+.middle{
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	background-color:#f6921d;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 0.8rem;
+	width: 80%;
+
+	
+
+
+
+
+}
+
+.main1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.2rem 4rem;
+	font-size: 20px bold;
+	font-weight: 200;
+	  font-weight: bold;
+
+
+}
+.main2{
+	display: flex;
+	justify-content: space-between;
+	width: 20rem;
+	padding-left:3rem ;
+	
+
+	font-size: 15px;
+	font-weight: bold;
+
+}
+.main3{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0rem 7rem;
+
+}
+.shipment{
+	padding: 0rem 7rem;
+	font-weight: bold;
+	font-size: 29px;
+
+
+}
+
+.main4{
+
+	display: flex;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0rem 7rem;
+	flex-wrap: wrap;
+
+	
+	justify-content: space-between;
+	
+}
+.first{
+	border-style: solid;
+	border: 0.2rem;
+	border-radius: 0.5rem;
+
+	border-color: rgb(243, 48, 48);
+	width: 15%;
+	color: white;
+	background-color: #f6921d;
+	padding: 0.3rem;
+	text-align: center;
+
+
+}
+.second{
+	border: 0.1rem;
+	border-style: solid;
+	border-color: rgb(247, 61, 61);
+	width: 85%;
+	padding: 0.3rem;
+
+}
+
+
+.main00{
+	display: flex;
+	justify-content: space-around;
+width: 100%;
+padding: 0.5rem;
+
+
+
+
+}
+.main11{
+border-style: solid;
+border-color: gray;
+border-radius: 10px;
+width: 45%;
+
+}
+
+.main22{
+	border-style: solid;
+	border-color: gray;
+	border-radius: 10px;
+width: 45%;
+	}
+	.main11 p{
+		background-color: rgb(189, 175, 175);
+		font-weight: bold;
+		padding: 0.4rem 0.6rem;
+	}
+
+	.main22 p{
+		background-color: rgb(189, 175, 175);
+		font-weight: bold;
+		padding: 0.4rem 0.9rem;
+	}
+	.shipment{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		font-size: 19px;
+		font-weight: normal;
+		font-weight: bold;
+		padding: 0.4rem 5.0rem;
+
+	}
+	.shipmentanswer{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		font-size: 19px;
+		font-weight: normal;
+	
+
+	}
+
+
+	.logo1{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		
+	}
+	
+	
+
+	.logopng{
+		width: 200px;
+		height: 100px;
+		padding: 1.2rem 2rem;
+	}
+	.first1{
+		display: flex;
+		color:  #fa1c25;
+		margin-top: 15px;
+
+	}
+.second1{
+	display: flex;
+	color:  #fa1c25;
+	margin-top: 15px;
+}
+.circle{
+	border: 1px solid #fa1c25;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	display: inline-block;
+	padding :1.2rem 1.5rem;
+
+	
+}
+.callus{
+	font-size: 20px;
+	padding: 8px 8px;
+
+}
+.callus p {
+	font-size: 12px;
+}
+	
+
+
+.main0{
+	background-color: lightgrey;
+
+}
+
+
+.button1{
+	border-radius: 5px ;
+	border-color: red;
+	background-color:#f6921d ;
+	color: white;
+	padding: 0.5rem;
+	font-size: 15px;
+}
+
+
+.fonts1{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+.contact{
+	background-color: red;
+	align-items: center;
+	padding: 0.8rem;
+	width: 20%;
+
+
+}
+@media screen and (max-width: 600px) {
+	.logo1 {
+	 width: 95%;
+	}
+	.logopng{
+		width: 100%;
+	}
+	.circle{
+		border: 1px solid #fa1c25;
+		height: 70px;
+		width: 70px;
+		border-radius: 50%;
+		display: inline-block;
+		padding :1.2rem 1.5rem;	
+	}
+	.callus{
+		font-size: 20px;
+		padding: 8px 8px;
+	
+	}
+	.shipmentanswer{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		font-size: 10px;
+		font-weight: normal;
+	}
+
+	.button1{
+        padding: 5px 10px;
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 20px;	
+    }
+    .first{
+        border-style: solid;
+        border: 0.2rem;
+        border-radius: 0.5rem;
+
+        border-color: rgb(243, 48, 48);
+        width: 25%;
+        color: white;
+        background-color: #f6921d;
+        padding: 0.7rem;
+        text-align: center;
+
+
+    }
+    .second{
+        border: 0.1rem;
+        border-style: solid;
+        border-color: rgb(247, 61, 61);
+        width: 75%;
+        padding: 0.3rem;
+
+    }
+    .main4{
+
+        display: flex;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 1rem 7rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .main11{
+        border-style: solid;
+        border-color: gray;
+        border-radius: 5px;
+        width: 100%;
+        
+    }
+    .main22{
+        border-style: solid;
+        border-color: gray;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 4px;   
+    }
+    .main00{
+        width: 100%;
+        display: block;
+	}
+	.shipmentanswer{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		font-size: 12px;
+		font-weight: normal;
+	}
+	.shipmenttitle{
+		font-size: 12px;	
+	}
+	
+  }
